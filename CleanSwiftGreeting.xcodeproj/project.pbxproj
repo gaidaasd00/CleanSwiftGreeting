@@ -9,33 +9,33 @@
 /* Begin PBXBuildFile section */
 		CC87598B292D35440001EB6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87598A292D35440001EB6B /* AppDelegate.swift */; };
 		CC87598D292D35440001EB6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87598C292D35440001EB6B /* SceneDelegate.swift */; };
-		CC87598F292D35440001EB6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87598E292D35440001EB6B /* ViewController.swift */; };
 		CC875992292D35440001EB6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC875990292D35440001EB6B /* Main.storyboard */; };
 		CC875994292D35480001EB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC875993292D35480001EB6B /* Assets.xcassets */; };
 		CC875997292D35480001EB6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC875995292D35480001EB6B /* LaunchScreen.storyboard */; };
 		CC8759A5292D363A0001EB6B /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87599F292D363A0001EB6B /* GreetingPresenter.swift */; };
-		CC8759A6292D363A0001EB6B /* GreetingWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8759A0292D363A0001EB6B /* GreetingWorker.swift */; };
+		CC8759A6292D363A0001EB6B /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8759A0292D363A0001EB6B /* GreetingConfigurator.swift */; };
 		CC8759A7292D363A0001EB6B /* GreetingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8759A1292D363A0001EB6B /* GreetingRouter.swift */; };
 		CC8759A8292D363A0001EB6B /* GreetingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8759A2292D363A0001EB6B /* GreetingModels.swift */; };
 		CC8759A9292D363A0001EB6B /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8759A3292D363A0001EB6B /* GreetingViewController.swift */; };
 		CC8759AA292D363A0001EB6B /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8759A4292D363A0001EB6B /* GreetingInteractor.swift */; };
+		CC8759AC292D3D180001EB6B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8759AB292D3D180001EB6B /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC875987292D35440001EB6B /* CleanSwiftGreeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwiftGreeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC87598A292D35440001EB6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC87598C292D35440001EB6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC87598E292D35440001EB6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC875991292D35440001EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC875993292D35480001EB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC875996292D35480001EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC875998292D35480001EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC87599F292D363A0001EB6B /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
-		CC8759A0292D363A0001EB6B /* GreetingWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingWorker.swift; sourceTree = "<group>"; };
+		CC8759A0292D363A0001EB6B /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
 		CC8759A1292D363A0001EB6B /* GreetingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingRouter.swift; sourceTree = "<group>"; };
 		CC8759A2292D363A0001EB6B /* GreetingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingModels.swift; sourceTree = "<group>"; };
 		CC8759A3292D363A0001EB6B /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		CC8759A4292D363A0001EB6B /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
+		CC8759AB292D3D180001EB6B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				CC87599E292D35E30001EB6B /* Greeting */,
+				CC8759AB292D3D180001EB6B /* Person.swift */,
 				CC87598A292D35440001EB6B /* AppDelegate.swift */,
 				CC87598C292D35440001EB6B /* SceneDelegate.swift */,
-				CC87598E292D35440001EB6B /* ViewController.swift */,
 				CC875990292D35440001EB6B /* Main.storyboard */,
 				CC875993292D35480001EB6B /* Assets.xcassets */,
 				CC875995292D35480001EB6B /* LaunchScreen.storyboard */,
@@ -83,12 +83,12 @@
 		CC87599E292D35E30001EB6B /* Greeting */ = {
 			isa = PBXGroup;
 			children = (
-				CC87599F292D363A0001EB6B /* GreetingPresenter.swift */,
-				CC8759A0292D363A0001EB6B /* GreetingWorker.swift */,
-				CC8759A1292D363A0001EB6B /* GreetingRouter.swift */,
-				CC8759A2292D363A0001EB6B /* GreetingModels.swift */,
 				CC8759A3292D363A0001EB6B /* GreetingViewController.swift */,
 				CC8759A4292D363A0001EB6B /* GreetingInteractor.swift */,
+				CC87599F292D363A0001EB6B /* GreetingPresenter.swift */,
+				CC8759A0292D363A0001EB6B /* GreetingConfigurator.swift */,
+				CC8759A1292D363A0001EB6B /* GreetingRouter.swift */,
+				CC8759A2292D363A0001EB6B /* GreetingModels.swift */,
 			);
 			path = Greeting;
 			sourceTree = "<group>";
@@ -164,15 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC87598F292D35440001EB6B /* ViewController.swift in Sources */,
 				CC8759A7292D363A0001EB6B /* GreetingRouter.swift in Sources */,
 				CC87598B292D35440001EB6B /* AppDelegate.swift in Sources */,
 				CC8759A9292D363A0001EB6B /* GreetingViewController.swift in Sources */,
 				CC8759AA292D363A0001EB6B /* GreetingInteractor.swift in Sources */,
 				CC8759A8292D363A0001EB6B /* GreetingModels.swift in Sources */,
 				CC87598D292D35440001EB6B /* SceneDelegate.swift in Sources */,
+				CC8759AC292D3D180001EB6B /* Person.swift in Sources */,
 				CC8759A5292D363A0001EB6B /* GreetingPresenter.swift in Sources */,
-				CC8759A6292D363A0001EB6B /* GreetingWorker.swift in Sources */,
+				CC8759A6292D363A0001EB6B /* GreetingConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

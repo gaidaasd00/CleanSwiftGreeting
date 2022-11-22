@@ -11,23 +11,21 @@
 //
 
 protocol GreetingBusinessLogic {
-    func doSomething(request: Greeting.Something.Request)
+    func showGreeting(request: GreetingRequest)
 }
 
 protocol GreetingDataStore {
-    
+    var person: Person? { get }
 }
 
 class GreetingInteractor: GreetingBusinessLogic, GreetingDataStore {
     
     var presenter: GreetingPresentationLogic?
-    var worker: GreetingWorker?
+    var person: Person?
     
-    func doSomething(request: Greeting.Something.Request) {
-        worker = GreetingWorker()
-        worker?.doSomeWork()
-        
-        let response = Greeting.Something.Response()
-        presenter?.presentSomething(response: response)
+    func showGreeting(request: GreetingRequest) {
+        person = Person(name: "Alex", surname: "Gaida")
+        let response = GreetingResponse(name: person?.name ?? "", surname: person?.surname ?? "")
+        presenter?.presentGreeting(response: response)
     }
 }

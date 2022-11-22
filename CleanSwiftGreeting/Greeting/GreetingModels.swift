@@ -9,21 +9,27 @@
 //  you can apply clean architecture to your iOS and Mac projects,
 //  see http://clean-swift.com
 //
+typealias GreetingViewModel = Greeting.ShowGreeting.ViewModel
+typealias GreetingRequest = Greeting.ShowGreeting.Request
+typealias GreetingResponse = Greeting.ShowGreeting.Response
 
 enum Greeting {
  
     // MARK: Use cases
-    enum Something {
+    enum ShowGreeting {
+        //посредник между вью и интерактором
         struct Request {
-            
         }
         
+        
+        //посредник между интерактором и презентором
         struct Response {
-            
+            let name: String
+            let surname: String
         }
-        
+        //посредник между презентором и вью контроллером
         struct ViewModel {
-            
+            let greeting: String
         }
     }
 }

@@ -11,15 +11,16 @@
 //
 
 protocol GreetingPresentationLogic {
-    func presentSomething(response: Greeting.Something.Response)
+    func presentGreeting(response: GreetingResponse)
 }
 
 class GreetingPresenter: GreetingPresentationLogic {
     
     weak var viewController: GreetingDisplayLogic?
     
-    func presentSomething(response: Greeting.Something.Response) {
-        let viewModel = Greeting.Something.ViewModel()
-        viewController?.displaySomething(viewModel: viewModel)
+    func presentGreeting(response: GreetingResponse) {
+        let greeting = "Hello \(response.name) \(response.surname)!"
+        let viewModel = GreetingViewModel(greeting: greeting)
+        viewController?.displayGreeting(viewModel: viewModel)
     }
 }
